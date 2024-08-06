@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react"
-import ProductCard from "./ProductCard"
-import { ShopContext } from "../App"
+import ProductCard from "./components/ProductCard"
+import { ShopContext } from "./App"
 
 function Store() {
   const { itemsInCart, setItemsInCart } = useContext(ShopContext)
